@@ -5,10 +5,12 @@
  * Assignment:  In Class: Java & Git Practice (08/21)
  */
 
+
 // Container class for assignment
 public class Demo {
     // Main method
-    public static void main() {
-        
+    public static void main(String[] args) {
+        Dog doggy = new Dog();
+        doggy.move();
     }
 }
