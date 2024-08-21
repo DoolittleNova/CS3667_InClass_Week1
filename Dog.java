@@ -1,15 +1,11 @@
 import java.lang.String;
+import java.util.Scanner;
 // Parent class
 public abstract class Dog {
-    private String name = "dog";
-    private String move_t = "meander";
-    private String noise_t = "bark";
-    
-    public void move(){
-        System.out.printf("The %s %ss.\n", name, move_t);
-    }
+    protected String name; // Inherited by children
 
-    public void noise() {
-        System.out.printf("The %s %sed!\n", name, noise_t);
-    }
+    // While the strings are the same printfs, the outputs will vary based on dog type
+    public abstract void noise();
+    public abstract void move();
+    public abstract void getName(Scanner scan);
 }
