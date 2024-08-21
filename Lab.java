@@ -1,7 +1,7 @@
-public class Poodle extends Dog{
-    private String name = "poodle";
-    private String move_t = "bolt";
-    private String noise_t = "yip";
+public class Lab extends Dog {
+    private String name = "lab";
+    private String move_t = "run";
+    private String noise_t = "woof";
 
     public void move(){
         System.out.printf("The %s %ss.\n", name, move_t);

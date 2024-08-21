@@ -1,9 +1,9 @@
 import java.lang.String;
 // Parent class
-public class Dog {
-    protected String name = "dog";
-    protected String noise_t = "bark";
-    protected String move_t = "meander";
+public abstract class Dog {
+    private String name = "dog";
+    private String move_t = "meander";
+    private String noise_t = "bark";
     
     public void move(){
         System.out.printf("The %s %ss.\n", name, move_t);
