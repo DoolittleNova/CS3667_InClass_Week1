@@ -33,7 +33,7 @@ public class Demo {
          * End User Input block
          */
 
-        // Assign dog accordingly
+        // Assign doggy accordingly
         Dog doggy = in.equals("lab") ? new Lab() : new Poodle(); // My apologies for this implementation.
 
         // Get name of dog

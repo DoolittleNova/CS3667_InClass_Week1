@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 // Child of Dog
 public class Lab extends Dog {
 
@@ -9,6 +7,7 @@ public class Lab extends Dog {
         this.move_t = "ran";
         this.noise_t = "woof";
     }
+
     public void move(){
         System.out.printf("%s %s!\n", name, move_t);
     }
